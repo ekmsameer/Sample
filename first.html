@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>New web</title>	
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript">
+		function change()
+		{
+			 var rand=Math.floor((Math.random()*3)+1);
+			 console.log("here"+rand);
+			switch(rand)
+			{
+				case 1:
+					image="1.jpg"
+					break;
+				case 2:
+					image="2.jpg"
+					break;
+				case 3:
+					image="3.jpg"
+					break;
+				case 4:
+					image="4.jpg"
+					break;
+			}
+				$("image1").src=image;
+		}
+		</script>
+
+	</head>
+	<body>
+		<div class="wrap" >
+			<img id="image1" src="4.jpg" class="image">
+			<button class="button" id="btn1" onclick="change();">Click to change image!</button>
+		</div>
+		
+	</body>
+</html>
