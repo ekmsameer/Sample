@@ -18,9 +18,15 @@
 	top: 80%;
 	left: 50%;
 	margin-left:-85px;
-
-
-
+}
+.button2
+{
+	width: 170px;
+	height: 25px;
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	margin-left:-85px;
 }
 .wrap
 {
