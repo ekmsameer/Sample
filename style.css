@@ -21,12 +21,12 @@
 }
 .button2
 {
-	width: 170px;
+	width: 190px;
 	height: 25px;
 	position: absolute;
 	top: 90%;
 	left: 50%;
-	margin-left:-85px;
+	margin-left:-95px;
 }
 .wrap
 {
