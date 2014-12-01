@@ -1,0 +1,36 @@
+<html>
+<hrad>
+<title>Login Page</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript">
+function get()
+{
+	var usr=document.getElementById("txt1").value;
+	var pass=document.getElementById("txt2").value;
+	if (usr=="sameer" && pass=="123") 
+	{
+		alert("Login Successfully");
+		window.location='login2.html';
+		//loadpage();
+	}
+	else
+	{
+		alert("Incorrect Username or Password")
+	}
+	
+}
+</script>
+</head>
+<body>
+	<div class="wraplogin">
+		<form>
+			UserName <input type="text" id="txt1"><br>
+			<br>
+			<br>
+			<br>
+			Password <input type="text" id="txt2"><br>
+			<br>
+			<button type="button" id="btn1" onclick="get()">Submit</button>
+		</form>
+	</div>
+</body>
